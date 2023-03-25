@@ -15,13 +15,7 @@ function App() {
   return (
       <Router>
         <div className="App">
-            <Navbar />
-            <Route exact path="/" component={LandingPage} />
-            <Route path="/blog" component={Blog} />
-            <Route path="/scholarship" component={ScholarshipsList} />
-            <Route path="/team" component={Team} />
             <Route path="/practice" component={Practice} />
-            <Footer />
         </div>
       </Router>
   );
